@@ -130,17 +130,19 @@ h1 {
 h1 span {
    position: relative;
    display: inline-block;
-   max-width: 100%;
 }
 
 h1 span::after {
-   content: url(../img/underline.svg);
-   display: inline-block;
+   content: "";
    position: absolute;
-   left: 0;
-   bottom: -30px;
-   width: 100%;
-   /* credo di aver trovato nella documentazione un riferimento al fatto che non posso dare una dimensione all'immagine se inserita tramite la proprietà content, devo approfondire */
+   bottom: -0.725rem;
+   left: -0.5rem;
+   right: -0.5rem;
+   height: 1.5rem;
+   background-image: url("../img/underline.svg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   opacity: .5;
 }
 
 p,
