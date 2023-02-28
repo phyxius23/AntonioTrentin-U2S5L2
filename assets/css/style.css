@@ -444,7 +444,6 @@ footer a {
    right: 0;
    bottom: 10px;
    box-shadow: 0 0 30px 10px rgba(0,0,0,0.2);
-   color: #436ecf;
    backdrop-filter: blur(0.3em);
 }
 .btn-social {
@@ -452,6 +451,10 @@ footer a {
 }
 .btn-calendar {
    bottom: 100px;
+}
+.btn-social a,
+.btn-calendar a{
+   color: #436ecf;
 }
 .btn-scroll-top {
    color: #e30000;
